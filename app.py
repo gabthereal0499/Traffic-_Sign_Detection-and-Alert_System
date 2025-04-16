@@ -9,10 +9,10 @@ from werkzeug.utils import secure_filename
 from twilio.rest import Client
 
 # === Twilio Configuration for SMS Notifications ===
-TWILIO_ACCOUNT_SID = "ACc68d8f26a8ef16572669ff09a3b833b5"  # Your Twilio Account SID
-TWILIO_AUTH_TOKEN = "45472262d2d245d4fbabedae519c324b"      # Your Twilio Auth Token
-TWILIO_PHONE_NUMBER = "+14094496768"                        # Twilio phone number
-DESTINATION_PHONE_NUMBER = "+919645090499"                  # Receiver’s phone number
+TWILIO_ACCOUNT_SID = "Account_SID"  # Your Twilio Account SID
+TWILIO_AUTH_TOKEN = "Auth_Token"      # Your Twilio Auth Token
+TWILIO_PHONE_NUMBER = "twilio number"                        # Twilio phone number
+DESTINATION_PHONE_NUMBER = "phone number"                  # Receiver’s phone number
 client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)      # Create Twilio client
 
 # === Flask App Configuration ===
