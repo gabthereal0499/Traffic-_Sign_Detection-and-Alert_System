@@ -32,7 +32,7 @@ This is a web-based Traffic Sign Detection system that identifies Indian traffic
 ### 1. Clone the repo
 
 
-git clone https://github.com/your-username/traffic-sign-detection-app.git
+git clone https://github.com/gabthereal0499/traffic-sign-detection-app.git
 cd traffic-sign-detection-app
 
 
@@ -67,6 +67,9 @@ NOTES:
 Ensure static/training_samples/ has a folder for each class name and at least one image inside.
 
 Make sure the class names match exactly with those in class_indices.json.
+
+DATASET:
+https://www.kaggle.com/datasets/sarangdilipjodh/indian-traffic-signs-prediction85-classes
 
 
 
